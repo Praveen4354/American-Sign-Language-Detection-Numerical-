@@ -1,1 +1,0 @@
-# American-Sign-Language-Detection-Numerical-
