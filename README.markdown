@@ -14,14 +14,21 @@ The repository contains the following files and directories:
 - `train_vgg_model.py`: Script to train and save a VGG-based model.
 - `train_vit_model.py`: Script to train and save a Vision Transformer (ViT) model.
 - `train_elu_cnn_model.py`: Script to train and save an ELU-based CNN model.
-- `saved_models/`: Directory containing pre-trained model weights:
-  - `keras_model.h5`: Saved Keras CNN model.
-  - `vgg_model.h5`: Saved VGG model.
-  - `vit_model.h5`: Saved Vision Transformer model.
-  - `elu_cnn_model.h5`: Saved ELU-based CNN model.
 - `knn_evaluation.py`: Script to evaluate the dataset using a K-Nearest Neighbors (KNN) algorithm.
 - `evaluate_models.py`: Script to evaluate the performance metrics of the trained models.
 - `README.md`: This file, providing an overview and instructions for the project.
+## 📦 Pre-trained Models
+
+The trained models are stored in the following Kaggle dataset and can be downloaded as needed:
+
+📁 **Kaggle Dataset**: [American Sign Language Numerical - Trained Models](https://www.kaggle.com/datasets/praveen1910/american-sign-languagenumerical-trained-models)
+
+It contains the following pre-trained model weights:
+
+- `keras_model.h5`: Saved Keras CNN model  
+- `vgg_model.h5`: Saved VGG model  
+- `vit_model.h5`: Saved Vision Transformer model  
+- `elu_cnn_model.h5`: Saved ELU-based CNN model
 
 ## Prerequisites
 To run the scripts in this repository, ensure you have the following installed:
@@ -117,4 +124,4 @@ Contributions are welcome! To contribute:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For questions or issues, please open an issue on the repository or contact the maintainer at [your-email@example.com].
+For questions or issues, please open an issue on the repository or contact the maintainer at [praveenid19@gmail.com].
